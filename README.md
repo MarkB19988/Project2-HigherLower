@@ -15,4 +15,6 @@ In this game, the player will be given a randomly generated number between 1 and
 ##### Programming Language
 I will be developing this game using C++ as instructed in the brief. The game will run in a command line interface
 
-#####
+### Burndown Chart
+
+![Burndown](https://i.imgur.com/269ZZ3C.png)

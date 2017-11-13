@@ -46,22 +46,20 @@ main() { // Main function that is the first to be performed
 				cout << "You guessed higher. The number was: " << card2 << ". Well Done!" "\n" "\n"; // Prints text to let the player know that their guess was correct
 
 				goto CorrectGuess; // Sends the program back to the 'CorrectGuess' marker
-				
 				}
 					else cout << "Game over, the number was: " << card2 << "\n" << "You finished the game with " << cash << " Dollars" "\n" "\n"; // If the player's guess was wrong, prints game over text and displays how much cash they made
-				}
+					}
     
-					if ( guess == 2 ){ // This checks to see if the players guess was lower, value of 2
-						if ( card2 < card1 ){ // This checks if the players guess was correct
-							cash += 50; // adds 50 to the value of the variable 'cash'
+		if ( guess == 2 ){ // This checks to see if the players guess was lower, value of 2
+			if ( card2 < card1 ){ // This checks if the players guess was correct
+				cash += 50; // adds 50 to the value of the variable 'cash'
 				
-							cout << "You guessed lower. The number was: " << card2 << ". Well Done!" "\n" "\n"; // Prints text to let the player know that their guess was correct
+				cout << "You guessed lower. The number was: " << card2 << ". Well Done!" "\n" "\n"; // Prints text to let the player know that their guess was correct
 					
-							goto CorrectGuess; // Sends the program back to the 'CorrectGuess' marker
-					
-							}
-								else cout << "Game over, the number was: " << card2 << "\n" << "You finished the game with " << cash << " Dollars" "\n" "\n"; // If the player's guess was wrong, prints game over text and displays how much cash they made
-							}
+				goto CorrectGuess; // Sends the program back to the 'CorrectGuess' marker
+				}
+					else cout << "Game over, the number was: " << card2 << "\n" << "You finished the game with " << cash << " Dollars" "\n" "\n"; // If the player's guess was wrong, prints game over text and displays how much cash they made
+					}
 
 	  
 }

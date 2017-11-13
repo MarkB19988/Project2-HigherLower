@@ -18,3 +18,7 @@ I will be developing this game using C++ as instructed in the brief. The game wi
 ### Burndown Chart
 
 ![Burndown](https://i.imgur.com/269ZZ3C.png)
+
+### Flowchart
+
+![Flowchart](https://i.imgur.com/jSUyNRt.png)

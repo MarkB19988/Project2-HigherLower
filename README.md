@@ -25,3 +25,9 @@ I will be developing this game using C++ as instructed in the brief. The game wi
 ### Flowchart
 
 ![Flowchart](https://i.imgur.com/jSUyNRt.png)
+
+### IDE Used
+
+![IDE](https://i.imgur.com/VJd4GxD.png)
+
+I used an IDE called 'repl.it' to code this game in. I chose this IDE because
